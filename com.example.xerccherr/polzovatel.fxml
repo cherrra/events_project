@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="972.0" prefWidth="1365.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.xerccherr.PolzovatelController">
+    <children>
+        <ImageView fitHeight="972.0" fitWidth="1387.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@fonfiol.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="399.0" layoutY="117.0" text="Вы вошли в аккаунт">
+            <font>
+                <Font name="Montserrat Alternates SemiBold" size="46.0" />
+            </font>
+        </Label>
+        <Button fx:id="glavnayButton" layoutX="625.0" layoutY="560.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="116.0" text="На главную" />
+        <ImageView fitHeight="268.0" fitWidth="281.0" layoutX="542.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@musiccat.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
