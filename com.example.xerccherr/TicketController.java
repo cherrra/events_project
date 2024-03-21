@@ -40,46 +40,6 @@ public class TicketController {
 
     @FXML
     private ChoiceBox<String> sobitie;
-
-/*    @FXML
-    private ChoiceBox<String> account;
-
-
-    public void fillAccountChoiceBox() {
-        Connection connection = null;
-        PreparedStatement statement = null;
-        ResultSet resultSet = null;
-
-        try {
-            DatabaseHandler databaseHandler = new DatabaseHandler();
-            connection = databaseHandler.getDbConnection();
-
-            statement = connection.prepareStatement("SELECT name FROM customers");
-            resultSet = statement.executeQuery();
-
-            List<String> accountNames = new ArrayList<>();
-            while (resultSet.next()) {
-                String accountName = resultSet.getString("name");
-                accountNames.add(accountName);
-            }
-
-            ObservableList<String> accountOptions = FXCollections.observableArrayList(accountNames);
-            account.setItems(accountOptions);
-
-        } catch (SQLException | ClassNotFoundException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                if (resultSet != null) resultSet.close();
-                if (statement != null) statement.close();
-                if (connection != null) connection.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-*/
-
     @FXML
     void initialize() {
         sobitie.getItems().addAll("Lida", "pyrokinesis");
@@ -140,7 +100,7 @@ public class TicketController {
             Parent root = loader.getRoot();
             Stage stage = new Stage();
             stage.setScene(new Scene(root));
-            stage.showAndWait();
+            stage.show();
 
         });
     }
