@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="972.0" prefWidth="1365.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.xerccherr.HelloController">
+   <children>
+      <ImageView fitHeight="972.0" fitWidth="1387.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@novifon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="85.0" layoutY="78.0" text="Events">
+         <font>
+            <Font name="Montserrat Alternates SemiBold" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="257.0" layoutY="84.0" text="Афиша">
+         <font>
+            <Font name="Montserrat Medium" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="24.0" layoutX="907.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Vector.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="954.0" layoutY="96.0" text="Ростов-на-Дону">
+         <font>
+            <Font name="Montserrat Medium" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="28.0" fitWidth="26.0" layoutX="1126.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ticket.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="1250.0" layoutX="74.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Line%201.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="2.0" fitWidth="1250.0" layoutX="69.0" layoutY="394.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Line%201.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="67.0" layoutY="302.0" text="Афиша событий в Ростове-на-Дону">
+         <font>
+            <Font name="Montserrat Alternates SemiBold" size="46.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="concertOneButton" fitHeight="476.0" fitWidth="1036.0" layoutY="424.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@лида.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="476.0" fitWidth="285.0" layoutX="1132.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@пиро%20_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="concertTwoButton" fitHeight="457.0" fitWidth="293.0" layoutX="1072.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@пиро%20_3%20(1).png" />
+         </image>
+      </ImageView>
+      <Button fx:id="loginSignUpButton" layoutX="1256.0" layoutY="94.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="68.0" text="Войти" />
+      <Button fx:id="ticketButton" layoutX="595.0" layoutY="89.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="269.0" text="События и артисты" />
+      <Button fx:id="sobitieArtistiButton" layoutX="1165.0" layoutY="94.0" mnemonicParsing="false" prefHeight="14.0" prefWidth="68.0" text="Билеты" />
+   </children>
+</AnchorPane>
